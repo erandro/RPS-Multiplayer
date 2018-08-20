@@ -1,0 +1,29 @@
+/* Name Input */
+.formStyle {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    }
+    .form-control {
+        display: inline;
+    }
+    #nameInput {
+        margin: 0 10px;
+    }
+    
+    /* Players boxes */
+    .box {
+        min-height: 200px;
+        border: 1px solid black;
+    }
+    #namePlayer1, #namePlayer2 {
+        margin: 0 auto 40px auto;
+    }
+    .icon, .iconWithNoClick {
+        height: 50px;
+        margin: 0 auto 40px auto;
+    }
+    #winPlayer1, #losePlayer1, #winPlayer2, #losePlayer2 {
+        display: inline;
+        margin: 0 auto 10px auto;
+    }
