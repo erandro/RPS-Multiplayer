@@ -32,7 +32,8 @@
                 <div class="title" id="title_2">
                     <form class="formStyle">
                         <!-- <label for="nameInput">Your Name:</label> -->
-                        <input type="text" class="col-sm-3 form-control is-valid" id="nameInput" placeholder="Name" required>
+                        <input type="text" class="col-sm-3 form-control is-valid" id="nameInput" placeholder="Name"
+                            required>
                         <button class="btn btn-success" id="enterPlayer" type="submit">Enter</button>
                     </form>
                 </div>
@@ -61,12 +62,12 @@
 
             <!-- Box 2 -->
             <div class="col-sm-4">
-                <div class="box" id="box_2">
+                <div class="box" id="box_C">
                 </div>
             </div>
 
             <!-- Box 3 -->
-            <div class="col-sm-4 box" id="box_3">
+            <div class="col-sm-4 box" id="box_2">
 
                 <div class="row">
                     <h4 id="namePlayer2">name</h4>
@@ -82,16 +83,22 @@
                 </div>
 
             </div>
+        </div>
 
+        <div class="row" id="chat">
+            <div class="col-md-12">
+                <div id="chat-messages"></div>
+                <div id="chat-bar">
+                    <input id="chat-input" />
+                    <button id="chat-send">Send</button>
+                </div>
+            </div>
         </div>
 
     </div>
 
-
-
-
     <!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
     <script>
         // Initialize Firebase
         var config = {
@@ -105,8 +112,7 @@
         firebase.initializeApp(config);
     </script>
     <!-- JQuery -->
-    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
-        crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Javascript -->
     <script src="assets/javascript/game.js"></script>
 </body>
